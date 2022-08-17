@@ -10,7 +10,7 @@ jobs:
         uses: SpicyPizza/create-envfile@v1
         with:
           envKey_POSTGRES_USER: "postgres"
-          envKey_POSTGRES_Password: "postgres"
+          envKey_POSTGRES_PASSWORD: "postgres"
           envKey_POSTGRES_DB: "postgres"
           envKey_POSTGRES_DATABASE_URL: "postgresql://postgres:postgres@db:5432/students__tests"
           file_name: .env.test
